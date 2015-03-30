@@ -1,0 +1,33 @@
+{
+  "name": "Entry-Africa",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jbol/Entry-Africa",
+  "authors": [
+    "jbol <jkbolorinos@gmail.com>"
+  ],
+  "description": "Website for non-profit firm that provides investment advising in africa",
+  "main": "Entry Africa",
+  "keywords": [
+    "investment",
+    "advising",
+    "investment",
+    "in",
+    "Africa",
+    "investing",
+    "in",
+    "Africa",
+    "non-profit",
+    "investing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.5"
+  }
+}
