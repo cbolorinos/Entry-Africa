@@ -381,6 +381,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    text-align: center;
 }
 
 section h3.section-subheading {
@@ -390,6 +391,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    text-align: center;
 }
 
 @media(min-width:768px) {
@@ -417,7 +419,6 @@ section#volunteer {
 #parallax-textbox {
 	margin: 150px 0;
 	padding: 20px;
-	height: 300px;
 	width: 100%;
 	background: white;
 }
