@@ -403,7 +403,6 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-    text-align: center;
 }
 
 section#volunteer {
@@ -422,6 +421,17 @@ section#volunteer {
 	padding: 20px;
 	width: 100%;
 	background: white;
+}
+
+section#story {
+	background-image: url(../img/gallery/slide4.jpg);
+	background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-attachment:fixed;
 }
 
 .timeline {
@@ -463,6 +473,7 @@ section#volunteer {
     width: 100%;
     padding: 0 20px 0 100px;
     text-align: left;
+    background:white;
 }
 
 .timeline>li .timeline-panel:before {
@@ -503,6 +514,7 @@ section#volunteer {
     float: right;
     padding: 0 20px 0 100px;
     text-align: left;
+	 background:white;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -550,8 +562,9 @@ section#volunteer {
     .timeline>li .timeline-panel {
         float: left;
         width: 41%;
-        padding: 0 20px 20px 30px;
+        padding: 10px 20px 10px 30px;
         text-align: right;
+		  background: white;
     }
 
     .timeline>li .timeline-image {
@@ -569,8 +582,9 @@ section#volunteer {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
+        padding: 10px 30px 10px 20px;
         text-align: left;
+        background: white;
     }
 }
 
@@ -581,6 +595,7 @@ section#volunteer {
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
+		  background: white;
     }
 
     .timeline>li .timeline-image {
@@ -597,6 +612,7 @@ section#volunteer {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
+        background: white;
     }
 }
 
@@ -606,7 +622,8 @@ section#volunteer {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 10px 20px 10px 10px;
+        background:white;
     }
 
     .timeline>li .timeline-image {
@@ -620,7 +637,8 @@ section#volunteer {
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 10px 20px 10px 20px;
+        background:white;
     }
 }
 
