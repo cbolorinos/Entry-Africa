@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
 
 body {
     overflow-x: hidden;
@@ -13,12 +9,21 @@ body {
     color: #777;
 }
 
-.text-white {
-    color: white;
+.text-yellow {
+    color: #fedd00;
+}
+
+.white-background {
+	background: #fff;
+	margin: 150px 0;
+}
+
+.yellow-background {
+   background:#fedd00; 
 }
 
 .text-primary {
-    color: #7888ac;
+    color: #009a44;
 }
 
 p {
@@ -39,7 +44,7 @@ a.active {
 }
 
 a {
-    color: #7888ac;
+    color: white;
 }
 
 a:hover,
@@ -63,6 +68,7 @@ h6 {
 .img-centered {
     margin: 0 auto;
 }
+
 
 /** fixing the videoframe bug **/
 
@@ -171,7 +177,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #7888ac;
+    background-color: #ef3340;
 }
 
 .btn-xl:hover,
@@ -180,7 +186,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #1E3265;
+    background-color: #007E38;
 }
 
 .btn-xl:active,
@@ -220,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #7888ac;
+    color: #009a44;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -237,8 +243,8 @@ fieldset[disabled] .btn-xl.active {
 
 
 .navbar-default .navbar-toggle {
-    border-color: #7888AC;
-    background-color: #7888AC;
+    border-color: #fedd00;
+    background-color: #009a44;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -247,7 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #7888ac;
+    background-color: #009a44;
 }
 
 .navbar-default .nav li a {
@@ -255,7 +261,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #B5BBC9;
+    color: #009a44;
     text-align: right;
 }
 /** trying to fix the stupid menubar up there **/
@@ -263,19 +269,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #7588B7;
+    color: #ef3340;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #6B8EC3;
+    background-color: #009a44;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #6B8EC3;
+    background-color: #009a44;
 }
 
 @media(min-width:768px) {
@@ -361,6 +367,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        color: #009a44;
     }
 
     header .intro-text .intro-heading {
@@ -370,6 +377,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 200;
         line-height: 75px;
+        color: #fedd00;
     }
 }
 
@@ -448,7 +456,7 @@ section#story {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    border:#6B8EC3 1px dotted;
+    border:#ef3340 1px dotted;
 }
 
 .timeline>li {
@@ -496,11 +504,11 @@ section#story {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #009a44;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #7888ac;
+    background-color: #009a44;
 }
 
 .timeline>li .timeline-image h4 {
@@ -732,7 +740,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #6B8EC3;
+    background-color: #009a44;
 }
 
 footer span.copyright,
@@ -741,7 +749,7 @@ footer span.copyright a {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
-    color:white;
+    color: #ef3340;
 }
 
 footer ul.quicklinks {
@@ -750,6 +758,7 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #fedd00;
 }
 
 ul.social-buttons {
@@ -765,7 +774,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #009a44;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -774,7 +783,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #7888ac;
+    background-color: #fedd00;
 }
 
 .btn:focus,
@@ -857,12 +866,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #7888ac;
+    background: #009a44;
 }
 
 ::selection {
     text-shadow: none;
-    background: #7888ac;
+    background: #009a44;
 }
 
 img::selection {
