@@ -13,6 +13,10 @@ body {
     color: #fedd00;
 }
 
+.text-white {
+	color:#fff;
+}
+
 .white-background {
 	background: #fff;
 	margin: 150px 0;
@@ -422,6 +426,24 @@ section#volunteer {
     background-size: cover;
     -o-background-size: cover;
 	background-attachment:fixed;
+	text-align: left;
+}
+
+section#volunteer > .container > .row > .col-lg-12 > h2.section-heading {
+	margin-top: 20px;
+}
+section#volunteer > .container > .row > .col-lg-12 > h3.section-subheading {
+	margin-bottom: 25px;
+}
+
+.fa-ul {
+	text-align: left;
+	margin-left: 8.143em;
+	line-height: 3;
+}
+
+.fa-ul li span {
+	margin-left: 10px;
 }
 
 #parallax-textbox {
@@ -481,6 +503,7 @@ section#story {
     width: 100%;
     padding: 0 20px 0 100px;
     text-align: left;
+    border: 1px #fedd00 solid;
 }
 
 .timeline>li .timeline-panel:before {
@@ -740,7 +763,14 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #009a44;
+    color: black;
+    background-color: #fff;
+}
+
+footer a,
+footer a:hover
+footer a:focus {
+	color:black;
 }
 
 footer span.copyright,
