@@ -3,8 +3,11 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #ECFFF4;
 }
-
+.row {
+    padding:15px;
+}
 .text-muted {
     color: #777;
 }
@@ -18,12 +21,10 @@ body {
 }
 
 .white-background {
-	background: #fff;
-	margin: 150px 0;
-}
-
-.yellow-background {
-   background:#fedd00; 
+	background: #ECFFF4;
+	margin: 50px 0;
+    padding: 15px 15px 15px 15px;
+    opacity: 0.9;
 }
 
 .text-primary {
@@ -438,8 +439,8 @@ section#volunteer > .container > .row > .col-lg-12 > h3.section-subheading {
 
 .fa-ul {
 	text-align: left;
-	margin-left: 8.143em;
 	line-height: 3;
+    margin-left: 0px;
 }
 
 .fa-ul li span {
@@ -503,7 +504,6 @@ section#story {
     width: 100%;
     padding: 0 20px 0 100px;
     text-align: left;
-    border: 1px #fedd00 solid;
 }
 
 .timeline>li .timeline-panel:before {
@@ -593,7 +593,7 @@ section#story {
         width: 41%;
         padding: 10px 20px 10px 30px;
         text-align: right;
-		  background: white;
+		  background: #ECFFF4;
     }
 
     .timeline>li .timeline-image {
@@ -613,7 +613,7 @@ section#story {
         float: right;
         padding: 10px 30px 10px 20px;
         text-align: left;
-        background: white;
+        background: #ECFFF4;
     }
 }
 
@@ -624,7 +624,7 @@ section#story {
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
-		  background: white;
+		  background: #ECFFF4;
     }
 
     .timeline>li .timeline-image {
@@ -641,7 +641,7 @@ section#story {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
-        background: white;
+        background: #ECFFF4;
     }
 }
 
@@ -652,7 +652,8 @@ section#story {
 
     .timeline>li .timeline-panel {
         padding: 10px 20px 10px 10px;
-        background:white;
+        background: #ECFFF4;
+        opacity: 0.9;
     }
 
     .timeline>li .timeline-image {
@@ -667,7 +668,7 @@ section#story {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 10px 20px 10px 20px;
-        background:white;
+        background:#ECFFF4;
     }
 }
 
@@ -764,7 +765,7 @@ footer {
     padding: 25px 0;
     text-align: center;
     color: black;
-    background-color: #fff;
+    background-color: #ECFFF4;
 }
 
 footer a,
